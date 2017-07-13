@@ -1,2 +1,6 @@
 # Numerical-methods
-Realization of numerical methods: Solution system of linear/nonlinear equations, Search for eigenvalues, Interpolation and Numerical integration. (Wolfram Mathematica)
+Realization of numerical methods in Wolfram Mathematica: 
+Solution system of linear/nonlinear equations;
+Search for eigenvalues; 
+Interpolation;
+Numerical integration.
