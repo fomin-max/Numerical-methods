@@ -1,6 +1,2 @@
 # Numerical-methods
-Realization of numerical methods in Wolfram Mathematica: 
-Solution system of linear/nonlinear equations;
-Search for eigenvalues; 
-Interpolation;
-Numerical integration.
+Program implementation of numerical methods on various topics. To solve a system of linear algebraic equations: the method of rotation, steepest descent, conjugate gradients. For a system of nonlinear equations: the Halley's, Newton-Raphson, and Chebyshev methods. To find the eigenvalues: the method of coordinate relaxation and the QR-algorithm. Interpolation of the function: Lagrange interpolation polynomial and Newton's formula on the initial nodes.
