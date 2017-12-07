@@ -9,7 +9,7 @@ main() {
         fgets(str,sizeof(str),stdin);
         i=0;
         k=0;
-        while(str[i]){
+        while(str[i]){   //проверка на двух стоящих подряд минусов (замена на плюс)
                 if (str[i]=='-'&&str[i+1]=='-'){
                         str[i]='+';
                         str[i+1]='0';
@@ -17,18 +17,11 @@ main() {
                 i++;
         }
         i=0;
-        if(str[0]=='*'||str[0]=='/'){
+        if(str[0]=='*'||str[0]=='/'){  //проверка на первый символ строки
                 printf("Mistake in input\n");
                 return 1;
         }
-        while(i<strlen(str)-2){
-                if (str[i]-'0'<0&&str[i+1]-'0'<0){
-                        printf("Mistake in input\n");
-                        return 1;
-                }
-                i++;
-        }
-        t=atof(str);
+        t=atof(str);  //взятие первого числа исходной строки
         i=1;
         while (str[i]!='\0'){
                 switch (str[i]){
